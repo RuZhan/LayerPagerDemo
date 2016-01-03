@@ -190,13 +190,13 @@ Header，抽取出来，RecycleView也需要Header
 
 布局的设计是酱紫。现在我来说动态图的效果是如何实现的
 
-![](https://github.com/RuZhan/LayerPagerDemo/raw/layout_task/gif/layer01.png)
+![](https://github.com/RuZhan/LayerPagerDemo/raw/master/gif/layer01.png)
 
 1，向上滑动，让ScrollView自然滚动就好。
 
 2，向下滑动，当ScrollView到顶部，触摸Body布局继续拖拽时，使布局分离。
 
- ![](https://github.com/RuZhan/LayerPagerDemo/raw/layout_task/gif/layer02.png)
+ ![](https://github.com/RuZhan/LayerPagerDemo/raw/master/gif/layer02.png)
 
 
 下面看代码：
