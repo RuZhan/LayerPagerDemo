@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruzhan.layerpagerdemo.view.LayerScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/scroll_root"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <include layout="@layout/layout_header"/>
+
+      <com.ruzhan.layerpagerdemo.view.LayerLinearLayout
+          android:id="@+id/ll_body"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+        <FrameLayout
+            android:background="#E18441"
+            android:layout_width="match_parent"
+            android:layout_height="166dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="Content01"
+              android:textColor="@android:color/white"
+              android:textSize="36sp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:background="#E1C741"
+            android:layout_width="match_parent"
+            android:layout_height="166dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="Content02"
+              android:textColor="@android:color/white"
+              android:textSize="36sp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:background="#B7E141"
+            android:layout_width="match_parent"
+            android:layout_height="166dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="Content03"
+              android:textColor="@android:color/white"
+              android:textSize="36sp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:background="#41E194"
+            android:layout_width="match_parent"
+            android:layout_height="166dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="Content04"
+              android:textColor="@android:color/white"
+              android:textSize="36sp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:background="#4164E1"
+            android:layout_width="match_parent"
+            android:layout_height="166dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="Content05"
+              android:textColor="@android:color/white"
+              android:textSize="36sp"/>
+        </FrameLayout>
+      </com.ruzhan.layerpagerdemo.view.LayerLinearLayout>
+    </LinearLayout>
+  </com.ruzhan.layerpagerdemo.view.LayerScrollView>
