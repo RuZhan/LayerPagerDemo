@@ -3,7 +3,8 @@
 
 需求是这样的：
 
-![](https://github.com/RuZhan/LayerPagerDemo/raw/layout_task/gif/gwl.gif) 
+
+![](https://github.com/RuZhan/LayerPagerDemo/raw/master/gif/gwl.gif) 
 
 
 
@@ -18,7 +19,7 @@
 
 做出的效果如下：
 
-![](https://github.com/RuZhan/LayerPagerDemo/raw/layout_task/gif/layer.gif)  
+![](https://github.com/RuZhan/LayerPagerDemo/raw/master/gif/layer.gif)  
 
 
 这种布局设计考验开发者对事件分发，自定义控件，Scroller界面滚动原理等知识的掌握程度。
